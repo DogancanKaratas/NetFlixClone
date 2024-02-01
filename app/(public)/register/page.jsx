@@ -4,7 +4,7 @@ import GoogleIcon from "@/public/icons/GoogleIcon";
 import React, { useState } from "react";
 
 const Register = () => {
-  const { createUser ,signUpProvider} = useAuthContext();
+  const { createUser, signUpProvider } = useAuthContext();
   const [info, setInfo] = useState({
     firstName: "",
     lastName: "",

@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const Login = () => {
-  const { signIn, forgotPassword,signUpProvider } = useAuthContext();
+  const { signIn, forgotPassword, signUpProvider } = useAuthContext();
   const [info, setInfo] = useState({
     email: "",
     password: "",
