@@ -2,9 +2,9 @@ import React from "react";
 
 const VideoSection = ({ videoKey }) => {
   return (
-    <div className="w-10/12 lg:w-full mx-auto">
+    <div className="w-10/12 lg:w-full mx-auto ">
       <div
-        className="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+        className="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden mt-20"
         style={{ paddingTop: "50%" }}
       >
         <iframe
